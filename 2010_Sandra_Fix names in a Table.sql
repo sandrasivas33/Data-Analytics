@@ -1,0 +1,13 @@
+CREATE TABLE NAMES (
+    NAME VARCHAR(100)
+);
+INSERT INTO NAMES (NAME) VALUES
+('rAVI kUMAR'),
+('priya sharma'),
+('amit PATEL'),
+('NEHA gupta');
+
+UPDATE NAMES
+SET NAME = INITCAP(NAME);
+
+SELECT * FROM public."names"
